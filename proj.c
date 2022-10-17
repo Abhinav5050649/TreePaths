@@ -6,6 +6,8 @@
 #include "math.h"
 #include "windows.h"
 
+//Programmer: Abhinav Sharma
+
 typedef struct enemy_Node{
     int enemy_health;
     int enemy_gold;
