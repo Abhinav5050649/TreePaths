@@ -137,6 +137,12 @@ int main()
             userHealth = 100, userGold = 100;
             node_count = 0;
         }
+        else if (choice == 1)
+        {
+            maxUserHealth = max(userHealth, maxUserHealth), maxUserGold = max(maxUserGold, userGold);
+            userHealth = 100, userGold = 100;
+            node_count = 0;
+        }
 
     } while (choice != 0);
         
