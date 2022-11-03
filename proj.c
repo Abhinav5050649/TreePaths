@@ -6,8 +6,6 @@
 #include "math.h"
 #include "windows.h"
 
-//Programmer: Abhinav Sharma
-
 typedef struct enemy_Node{
     int enemy_health;
     int enemy_gold;
@@ -149,7 +147,7 @@ int main()
         //File handling 
         FILE *fileptr = fopen("scoreCard.txt", "w");
 
-        fprintf(fileptr, "Number of games played in total: %d\nMaximum Health at the End: %d\nMaximum Gold at the End: %d\n\n", number_of_iterations_of_game, maxUserHealth, maxUserGold);
+        fprintf(fileptr, "Number of games played in total: %d\nMaximum Gold at the End: %d\n\n", number_of_iterations_of_game, maxUserGold);
         
         fclose(fileptr);
 
