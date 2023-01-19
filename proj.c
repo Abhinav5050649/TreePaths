@@ -6,8 +6,6 @@
 #include "math.h"
 #include "windows.h"
 
-//Programmer: Abhinav Sharma
-
 typedef struct enemy_Node{
     int enemy_health;
     int enemy_gold;
@@ -26,7 +24,7 @@ typedef struct Tree_Node
 Tree_Node;
 
 int node_count = 0, number_of_iterations_of_game = 0, userHealth = 100, userGold = 100;  //Global variables for health and gold of user, and level tracker
-int maxUserHealth = INT_MIN, maxUserGold = INT_MIN; //
+int maxUserHealth = -1000000009, maxUserGold = -1000000009; //
 
 bool isPrime(int n);
 
